@@ -212,7 +212,6 @@ int evaluate(char *postfix,char *arr)
 }
 int main()
 {
-    printf("\nAANSH SARDANA\n\n2019UC01672\n\n");
    int cont;
    printf("\n\nyour expression should follow these rules\n1)  Variables should be p and q only\n2)  Use V for AND\n3)  Use ^ for OR \n4)  Use - for if\n5)  Use = for if and only if\n6)  Use ~for nagation\n7)  Use simple brackets '()' for every expression\n") ;
     printf("\nEnter your expression\n");
@@ -237,7 +236,6 @@ int main()
           printf("THIS STATEMENT IS CONTRADICTION\n");
       }  
       else printf("THIS STATEMENT IS CONTINGENCY\n");
-      printf("\nAANSH SARDANA\n\n2019UC01672\n\n");
    
    return 0;
 }
